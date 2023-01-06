@@ -1,3 +1,14 @@
+### memo
+
+그래프탐색
+큐 초기화
+// 원소가 있는 큐 만들기
+```
+q = deque([원소1,원소2,원소3])
+```
+appendleft를 써야 앞부터 저장됨!
+
+
 # [Gold IV] 두 로봇 - 15971 
 
 [문제 링크](https://www.acmicpc.net/problem/15971) 
