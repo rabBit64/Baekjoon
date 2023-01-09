@@ -1,3 +1,16 @@
+#### memo
+```
+import sys
+input = sys.stdin.readline
+int(input())
+```
+```
+arr = [int(input()) for i in range(N)]
+```
+```
+for num in reversed(arr):
+```
+
 # [Bronze II] 막대기 - 17608 
 
 [문제 링크](https://www.acmicpc.net/problem/17608) 
