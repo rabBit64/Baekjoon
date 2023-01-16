@@ -18,3 +18,7 @@ arr = [list(input().rstrip()) for _ in range(n)] # 이렇게 띄어쓰기 없을
 ```
 arr[row][col],arr[nrow][ncol] = arr[nrow][ncol],arr[row][col] # 이렇게 바로 swap이 되는구나..
 ```
+-띄어쓰기 없는 이차원배열 입력받기
+```
+arr = [list(map(int,input().strip())) for _ in range(n)]
+```
