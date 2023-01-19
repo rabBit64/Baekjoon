@@ -26,7 +26,8 @@ arr = [list(map(int,input().strip())) for _ in range(n)]
 ```
 str.cnt('a')
 str.replace(i,'*')
-
+str.find(chr(i))
 // join은 문자열 함수임!
 구분자.join(문자열리스트)
 ```
+아스키코드로 'a'는 97 (~122) 'A'는 65 (~90)
