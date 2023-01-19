@@ -26,4 +26,7 @@ arr = [list(map(int,input().strip())) for _ in range(n)]
 ```
 str.cnt('a')
 str.replace(i,'*')
+
+// join은 문자열 함수임!
+구분자.join(문자열리스트)
 ```
