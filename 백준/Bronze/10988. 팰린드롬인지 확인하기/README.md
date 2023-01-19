@@ -1,3 +1,9 @@
+##### 메모
+```
+def pelendrom(str):
+  return int(str == str[::-1])
+```
+
 # [Bronze II] 팰린드롬인지 확인하기 - 10988 
 
 [문제 링크](https://www.acmicpc.net/problem/10988) 
