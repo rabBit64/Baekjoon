@@ -22,3 +22,8 @@ arr[row][col],arr[nrow][ncol] = arr[nrow][ncol],arr[row][col] # 이렇게 바로
 ```
 arr = [list(map(int,input().strip())) for _ in range(n)]
 ```
+-파이썬 string 함수들 활용..
+```
+str.cnt('a')
+str.replace(i,'*')
+```
