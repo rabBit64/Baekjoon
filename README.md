@@ -15,6 +15,14 @@ int(input().rstrip()) #readline으로 입력받으면 개행 들어가서 rstrip
 ```
 arr = [list(input().rstrip()) for _ in range(n)] # 이렇게 띄어쓰기 없을때 입력받기!
 ```
+이차원 배열 입력
+```
+arr = []
+for i in range(N):
+    arr.append(list(map(int,input().split())))
+
+arr = [list(map(int,input().split)) for _ in range(N)]
+```
 ```
 arr[row][col],arr[nrow][ncol] = arr[nrow][ncol],arr[row][col] # 이렇게 바로 swap이 되는구나..
 ```
