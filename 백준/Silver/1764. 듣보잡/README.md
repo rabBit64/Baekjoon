@@ -1,3 +1,6 @@
+##### 메모
+list끼리 & 연산이 되는구나
+
 # [Silver IV] 듣보잡 - 1764 
 
 [문제 링크](https://www.acmicpc.net/problem/1764) 
