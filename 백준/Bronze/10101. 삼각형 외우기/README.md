@@ -1,3 +1,11 @@
+#### 메모
+한줄로 입력
+```
+arr = [int(input()) for _ in range(3)]
+```
+set으로 중복 제거
+all 함수 사용
+
 # [Bronze IV] 삼각형 외우기 - 10101 
 
 [문제 링크](https://www.acmicpc.net/problem/10101) 
