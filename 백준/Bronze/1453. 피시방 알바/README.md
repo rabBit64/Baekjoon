@@ -1,3 +1,7 @@
+####메모
+len(set()) 중복제거!
+
+
 # [Bronze II] 피시방 알바 - 1453 
 
 [문제 링크](https://www.acmicpc.net/problem/1453) 
