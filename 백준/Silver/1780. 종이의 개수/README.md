@@ -1,3 +1,25 @@
+#### 메모
+all 함수 잘쓰면 좋은듯
+```
+if all(arr[y+i][x+j]==arr[y][x] for i in range(size) for j in range(size))
+```
+재귀 반복되는건 포문으로 예쁘게 쓰자..
+```
+ for i in range(3):
+        for j in range(3):
+          divide(y+size//3*i,x+size//3*j,size//3)
+      '''
+      divide(y,x,size//3) #0,0
+      divide(y,x+size//3,size//3) #0,3
+      divide(y+size//3,x,size//3) #3,0
+      divide(y,x+2*(size//3),size//3) #0,6
+      divide(y+size//3,x+size//3,size//3) #3,3 
+      divide(y+size//3,x+2*(size//3),size//3) #3,6
+      divide(y+2*(size//3),x+size//3,size//3) #6,3
+      divide(y+2*(size//3),x,size//3) #6,0
+      divide(y+2*(size//3),x+2*(size//3),size//3) #6,6
+    '''
+```
 # [Silver II] 종이의 개수 - 1780 
 
 [문제 링크](https://www.acmicpc.net/problem/1780) 
