@@ -1,3 +1,10 @@
+##### 메모
+replace 하는 아이디어 기억!
+```
+while '()' in b:
+    b = b.replace('()','')
+```
+
 # [Silver IV] 괄호 - 9012 
 
 [문제 링크](https://www.acmicpc.net/problem/9012) 
