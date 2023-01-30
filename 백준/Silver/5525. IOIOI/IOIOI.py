@@ -7,12 +7,11 @@ for _ in range(N-1):
 idx = 0
 tmp = str
 cnt = 0
-
 while True:
   idx = tmp.find(P)
   if idx==-1:
     break
   else:
     cnt+=1
-    tmp = tmp[idx+1:]
+    tmp = tmp[idx+2:]
 print(cnt)
