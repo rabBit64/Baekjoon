@@ -1,3 +1,12 @@
+##### 메모
+arr 의 원소 갯수를 count 해서 리스트로 만들기
+```
+arr.count(i)
+```
+인덱스 바로 구하기
+```
+idx.index(max(idx))
+```
 # [Bronze II] 대표값 - 2592 
 
 [문제 링크](https://www.acmicpc.net/problem/2592) 
