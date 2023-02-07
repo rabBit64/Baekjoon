@@ -41,3 +41,7 @@ str.find(chr(i))
 아스키코드로 'a'는 97 (~122) 'A'는 65 (~90)
 - set의 원소삭제는 ```s.remove(원소)```
 - 정렬 ```arr.sort(key = lambda x:x[1])```
+-count함수를 잘 쓰자
+```
+a, b = s.count(':-)'), s.count(':-(')
+```
