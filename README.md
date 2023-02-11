@@ -45,3 +45,7 @@ str.find(chr(i))
 ```
 a, b = s.count(':-)'), s.count(':-(')
 ```
+-replace함수 쓰면 다시 저장해줘야함!! 자꾸 까먹음..
+```
+str = str.replace('a','b')
+```
