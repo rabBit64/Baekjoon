@@ -49,3 +49,8 @@ a, b = s.count(':-)'), s.count(':-(')
 ```
 str = str.replace('a','b')
 ```
+-소수점버림
+```
+import math
+x = math.floor(2.54) #2
+```
