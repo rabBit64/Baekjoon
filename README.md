@@ -54,3 +54,7 @@ str = str.replace('a','b')
 import math
 x = math.floor(2.54) #2
 ```
+-리스트 원소 삭제
+```
+arr.remove(e) #찾을 원소
+```
