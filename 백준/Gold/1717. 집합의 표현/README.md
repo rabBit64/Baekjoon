@@ -1,3 +1,8 @@
+##### memo
+
+유니온 파인드
+루트 노드 찾기
+
 # [Gold V] 집합의 표현 - 1717 
 
 [문제 링크](https://www.acmicpc.net/problem/1717) 
