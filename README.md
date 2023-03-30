@@ -58,3 +58,10 @@ x = math.floor(2.54) #2
 ```
 arr.remove(e) #찾을 원소
 ```
+- 힙
+```
+import heapq
+heap = []
+heapq.heappush(heap,50)
+result = heapq.heappop(heap)
+```
