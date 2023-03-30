@@ -1,3 +1,19 @@
+#### memo
+이 문제는 다익스트라였음!
+최소힙을 사용해야함.
+주의할건 최소힙에 넣을때 (거리,노드) 이렇게 넣어야 시간초과가 안난다는 것이다..
+최소힙 사용법 익혀보자
+```
+import heapq
+INF = sys.maxsize 
+q = []
+heapq.heappush(q,(거리,노드))
+heapq.heappop(q)
+```
+튜플의 첫번째 요소가 정렬 기준이 되니까
+꺼낼때 작은애부터 나올수 있음!!!!!
+
+
 # [Gold IV] 최단경로 - 1753 
 
 [문제 링크](https://www.acmicpc.net/problem/1753) 
