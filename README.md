@@ -65,3 +65,5 @@ heap = []
 heapq.heappush(heap,50)
 result = heapq.heappop(heap)
 ```
+- 인덱스 찾기
+.index
