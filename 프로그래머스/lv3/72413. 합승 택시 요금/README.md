@@ -1,3 +1,8 @@
+### memo
+플로이드 와샬
+min_cost = min(min_cost,min(graph[s][a]+graph[s][b],graph[s][i]+graph[i][a]+graph[i][b]))
+이 식만 세울줄 알면 되는듯
+
 # [level 3] 합승 택시 요금 - 72413 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/72413?language=python3) 
