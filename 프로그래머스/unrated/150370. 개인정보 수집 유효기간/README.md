@@ -1,3 +1,8 @@
+# 0703
+날짜 변환 함수 (day로 통일)   
+딕셔너리 잘 쓰기 ```dict()```   
+enumerate 쓰면 인덱스랑 원소에 둘다 접근
+
 # [unrated] 개인정보 수집 유효기간 - 150370 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/150370?language=python3) 
