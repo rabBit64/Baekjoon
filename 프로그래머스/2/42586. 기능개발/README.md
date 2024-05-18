@@ -1,3 +1,18 @@
+ ``` progresses[i] = [ progresses[i]+speeds[i] for i in range(len(progesses) ]  ```    
+배열   
+ ``` 
+[94, 60, 60]   
+[95, 90, 65]   
+[96, 120, 70]   
+[97, 150, 75]   
+[98, 180, 80]   
+[99, 210, 85]   
+[100, 240, 90]
+ ``` 
+이렇게 한번에 가능하네...
+
+ ``` progresses.pop(0)  ``` 
+배열을 큐처럼 써보자
 # [level 2] 기능개발 - 42586 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42586?language=python3) 
