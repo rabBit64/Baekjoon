@@ -7,7 +7,7 @@ for command in commands:
 ```
 answer = list(sorted(array[i-1:j]))[k-1]
 ```
-array.sort() -> 본체 리스트를 정렬해서 반환
+array.sort() -> 본체 리스트를 정렬해서 반환    
 sorted(array) -> 본체 리스트는 두고, 정렬한 새로운 리스트 반환
 # [level 1] K번째수 - 42748 
 
